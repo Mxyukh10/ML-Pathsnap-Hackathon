@@ -1,0 +1,11 @@
+{
+  "observations": 639.2,
+  "classifier_top1_accuracy": 0.7670632844751316,
+  "hmm_top1_accuracy": 0.7928718409258646,
+  "classifier_sequence_accuracy": 0.0,
+  "hmm_sequence_accuracy": 0.0,
+  "classifier_route_continuity": 0.9372051327788828,
+  "hmm_route_continuity": 0.9885372355368158,
+  "decoder": "HMM + Viterbi",
+  "model": "HistGradientBoosting"
+}

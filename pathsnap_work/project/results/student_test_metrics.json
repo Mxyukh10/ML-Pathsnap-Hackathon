@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.9389471214017522,
+  "precision": 0.6938400678157671,
+  "recall": 0.8371974087964541,
+  "f1": 0.7588071693448702,
+  "macro_f1": 0.8619286607963828,
+  "log_loss": 0.17047608193754807,
+  "top1_accuracy": 0.7415519399249061,
+  "gps_observations": 6392,
+  "selected_model": "HistGradientBoosting",
+  "rows": 51136,
+  "trips": 10
+}

@@ -1,0 +1,8 @@
+{
+  "selected_model": "HistGradientBoosting",
+  "validation_f1": 0.8423986334621955,
+  "training_rows_used": 180000,
+  "candidate_k": 8,
+  "elapsed_seconds": 19.87,
+  "note": "Reference labels are approximated by nearest spatial segment among unique arc IDs in the supplied route; there are no explicit per-observation labels. This is a weak alignment assumption and should be validated."
+}

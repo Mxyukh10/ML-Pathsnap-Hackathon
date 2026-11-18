@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+*.log
+.streamlit/secrets.toml
+
+# Dataset files
+*.track
+*.nodes
+*.arcs
+*.route
+*.csv
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
