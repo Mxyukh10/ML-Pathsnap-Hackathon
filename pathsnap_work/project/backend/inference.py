@@ -43,7 +43,7 @@ def get_student_test_folder():
         "Student test partition folder was not found."
     )
 
-
+#for the list of trips
 def list_trips():
     folder = get_student_test_folder()
 
