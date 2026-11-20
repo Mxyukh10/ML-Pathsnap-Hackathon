@@ -252,3 +252,15 @@ The response includes:
 Developed as part of a machine learning hackathon project.
 
 **Project:** PathSnap – GPS Map Matching Using Machine Learning
+
+## Project Workflow
+
+The PathSnap system follows a sequence of processing steps to convert noisy GPS observations into more consistent road routes.
+
+1. **GPS Preprocessing:** Cleans and processes the raw GPS trajectory data.
+2. **Candidate Generation:** Identifies possible road segments corresponding to each GPS observation.
+3. **Feature Engineering:** Extracts relevant features such as distance, heading, speed and time difference.
+4. **Machine Learning Classification:** Evaluates candidate road segments using the trained classification model.
+5. **HMM-Based Route Reconstruction:** Uses a Hidden Markov Model to identify a more consistent sequence of road segments.
+6. **Route Visualization:** Displays the predicted routes through the application dashboard.
+
